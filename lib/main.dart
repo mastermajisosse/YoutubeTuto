@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:youtube/cupertinopickerr/Homepage.dart';
+import 'package:youtube/Explaining/explainstate.dart';
+import 'package:youtube/cupertinopicker/cupertinopickerPage.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +13,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      debugShowCheckedModeBanner: false,
+      home: ExplainState(),
     );
   }
 }

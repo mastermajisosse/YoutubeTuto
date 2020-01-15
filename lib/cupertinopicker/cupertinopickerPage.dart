@@ -1,12 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class HomePage extends StatefulWidget {
+class CupertinopickerPage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _CupertinopickerPageState createState() => _CupertinopickerPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _CupertinopickerPageState extends State<CupertinopickerPage> {
   int selected = 0;
   @override
   Widget build(BuildContext context) {
