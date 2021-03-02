@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:youtube/Explaining/explainstate.dart';
-import 'package:youtube/Utils/onoff_widget.dart';
+import 'package:youtube/display_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: OnOffWidget(),
+      home: DisplayScreen(),
     );
   }
 }
